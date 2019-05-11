@@ -1,21 +1,5 @@
-// const getJson = () => {
-//   fetch("questions.json")
-//     .then(res => res.json())
-//     .then(json => {
-//       console.log(json);
-//       let output = "";
-//       let num = RanNum();
-//       let ques = json.filter(q => {
-//         return q.id === num;
-//       })[0];
-//       console.log(num, ques.question);
-//       output += ques.question;
-//       document.getElementById("output").innerHTML = output;
-//     });
-// };
-
 const getJson = () => {
-  fetch("questions.json")
+  fetch("http://www.tylermaxwell.co/day19/questions.json")
     .then(res => res.json())
     .then(json => {
       let num = RanNum();
@@ -44,6 +28,3 @@ const showAnswer = () => {
 
 document.getElementById("butt-ques").addEventListener("click", getJson);
 document.getElementById("butt-ans").addEventListener("click", showAnswer);
-
-// output += `<p>${q.question}</p>`;
-// console.log(output);
