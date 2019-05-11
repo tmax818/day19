@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What does CSS stand for?",
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": 2,
+    "question": "How do you declare a varable in Ruby",
+    "answer": "x = 'some variable'"
+  },
+  {
+    "id": 3,
+    "question": "What does HTML stand for?",
+    "answer": "Hyper-text Markup Language"
+  },
+  {
+    "id": 4,
+    "question": "What does O(1) mean",
+    "answer": "constant runtime"
+  },
+  {
+    "id": 5,
+    "question": "Who invented the internet?",
+    "answer": "Al Gore"
+  },
+  {
+    "id": 6,
+    "question": "&&",
+    "answer": "'and' logical operator"
+  },
+  {
+    "id": 7,
+    "question": "||",
+    "answer": "'or' logical operator"
+  },
+  {
+    "id": 8,
+    "question": "What does HTTP stand for?",
+    "answer": "Hyper-text Transfer Protocol"
+  }
+]
